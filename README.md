@@ -1,34 +1,66 @@
-# BankSystem
-# Console Bank App (Java)
+# 💻 Bank System (Java)
 
-Simple console banking application written in Java as a learning project.
-The goal was to practice OOP basics, separation of concerns (UI / Service / Model),
-and input validation.
+Simple console banking application written in Java.
 
-## Features
-- Select user by ID
-- Show user profile (ID, name, balance)
-- Withdraw money with validation (invalid amount / not enough balance)
-- Deposit money with validation
-- Input validation (prevents crashes when user enters letters instead of numbers)
+## 📌 About Project
 
-## Project Structure
-- `Main` — application entry point (creates initial users and starts UI)
-- `ConsoleUI` — console interaction (Scanner, menu, messages)
-- `BankService` — business logic (search user, withdraw, deposit)
-- `UserBank` — model (encapsulated fields, withdraw/deposit rules)
+This project simulates a basic banking system where users can:
 
-## Technologies
+- View account information
+- Deposit money
+- Withdraw money
+- Work with multiple users
+
+The goal of this project was to practice Java fundamentals and Object-Oriented Programming (OOP).
+
+---
+
+## ⚙️ Features
+
+- User selection by ID
+- Deposit money
+- Withdraw money with balance validation
+- Display user information (ID, name, balance)
+- Input validation (no invalid data)
+
+---
+
+## 🧠 What I learned
+
+- Object-Oriented Programming (OOP)
+- Working with classes and methods
+- Separation of logic (UI / Service / Model)
+- Basic error handling
+- User input validation
+
+---
+
+## 🛠 Technologies
+
 - Java
-- Maven
-- OOP: encapsulation, separation of concerns
+- Console application
+- OOP principles
 
-## How to Run
-### Option 1: Run from IDE (IntelliJ IDEA)
-1. Open the project
-2. Run `Main`
+---
 
-### Option 2: Run with Maven
-1. Build:
-   ```bash
+## ▶️ How to run
+
+1. Open project in IntelliJ IDEA or any Java IDE  
+2. Run `Main` class  
+3. Follow instructions in console  
+
+---
+
+## 🚀 Future improvements
+
+- Add database (SQL)
+- Add GUI (JavaFX or web)
+- Improve error handling (try-catch)
+- Add login system
+
+---
+
+## 👨‍💻 Author
+
+Oleksandr Romanenko
    mvn clean package
