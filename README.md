@@ -47,7 +47,7 @@ The goal of this project was to practice Java fundamentals and Object-Oriented P
 
 1. Open project in IntelliJ IDEA or any Java IDE  
 2. Run `Main` class  
-3. Follow instructions in console  
+3. Follow instructions in console.  
 
 ---
 
